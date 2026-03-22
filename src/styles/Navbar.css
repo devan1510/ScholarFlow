@@ -1,0 +1,76 @@
+/* Vintage Wood Textures & Color Schemes */
+.bg-wood-dark {
+  background: linear-gradient(135deg, #3a2a1f 0%, #2c1e12 50%, #3a2a1f 100%);
+}
+
+.bg-wood-medium {
+  background: linear-gradient(135deg, #5c3e2a 0%, #4a2f1c 50%, #5c3e2a 100%);
+}
+
+.bg-wood-light {
+  background: linear-gradient(135deg, #7b5a3e 0%, #6b4a2e 50%, #7b5a3e 100%);
+}
+
+.bg-wood-pattern {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 2px,
+    transparent 2px,
+    transparent 8px
+  );
+}
+
+.bg-vintage-paper {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.3'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
+.bg-brass-gradient {
+  background: linear-gradient(135deg, #cd9a4b 0%, #b87a2e 50%, #9b5e1a 100%);
+}
+
+/* Wood grain texture for elements */
+.bg-wood-grain {
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.2) 0px,
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+}
+
+/* Vintage transitions and animations */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+/* Custom scrollbar for vintage feel */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #2c1e12;
+}
+
+::-webkit-scrollbar-track {
+  background: #3a2a1f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cd9a4b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b87a2e;
+}
