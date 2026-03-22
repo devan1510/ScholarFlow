@@ -1,6 +1,6 @@
-# 📚 Smart Scholar
+# 📚 Scholar Flow
 
-Smart Scholar is a student financing application designed to help students manage their finances, gain insights through interactive dashboards, scan receipts, and explore job opportunities — all in one place.
+Scholar Flow is a student financing application designed to help students manage their finances, gain insights through interactive dashboards, scan receipts, and explore job opportunities — all in one place.
 
 ---
 
@@ -38,7 +38,7 @@ Smart Scholar is a student financing application designed to help students manag
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/devan1510/ScholarFlow.git
 cd Alladin
 ```
 
